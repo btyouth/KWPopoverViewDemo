@@ -21,6 +21,7 @@
 		1625BF8A18F635C60054732C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1625BF6C18F635C50054732C /* UIKit.framework */; };
 		1625BF9218F635C60054732C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1625BF9018F635C60054732C /* InfoPlist.strings */; };
 		1625BF9418F635C60054732C /* KWPopoverViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1625BF9318F635C60054732C /* KWPopoverViewDemoTests.m */; };
+		1625BF9F18F635DD0054732C /* KWPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1625BF9E18F635DD0054732C /* KWPopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1625BF8F18F635C60054732C /* KWPopoverViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KWPopoverViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1625BF9118F635C60054732C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1625BF9318F635C60054732C /* KWPopoverViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWPopoverViewDemoTests.m; sourceTree = "<group>"; };
+		1625BF9D18F635DD0054732C /* KWPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPopoverView.h; sourceTree = "<group>"; };
+		1625BF9E18F635DD0054732C /* KWPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPopoverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1625BF7E18F635C50054732C /* ViewController.m */,
 				1625BF8018F635C50054732C /* Images.xcassets */,
 				1625BF6F18F635C50054732C /* Supporting Files */,
+				1625BF9D18F635DD0054732C /* KWPopoverView.h */,
+				1625BF9E18F635DD0054732C /* KWPopoverView.m */,
 			);
 			path = KWPopoverViewDemo;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				1625BF7F18F635C50054732C /* ViewController.m in Sources */,
 				1625BF7918F635C50054732C /* AppDelegate.m in Sources */,
+				1625BF9F18F635DD0054732C /* KWPopoverView.m in Sources */,
 				1625BF7518F635C50054732C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
