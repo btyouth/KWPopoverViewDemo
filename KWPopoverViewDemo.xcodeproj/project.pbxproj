@@ -385,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KWPopoverViewDemo/KWPopoverViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "KWPopoverViewDemo/KWPopoverViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KWPopoverViewDemo/KWPopoverViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "KWPopoverViewDemo/KWPopoverViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +464,7 @@
 				1625BF9918F635C60054732C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1625BF9A18F635C60054732C /* Build configuration list for PBXNativeTarget "KWPopoverViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				1625BF9C18F635C60054732C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
